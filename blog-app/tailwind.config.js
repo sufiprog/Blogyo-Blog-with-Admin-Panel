@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        1: "7px 7px 0 #000", // Your custom shadow
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
